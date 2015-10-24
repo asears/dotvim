@@ -1,16 +1,16 @@
-Installation:
+#Installation:
 
-   ```bash
+```bash
    git clone git://github.com/asears/dotvim.git ~/.vim
-'''
-    Create symlinks:
+```
+##    Create symlinks:
 ```bash
         ln -s ~/.vim/vimrc ~/.vimrc
 	    ln -s ~/.vim/gvimrc ~/.gvimrc
-'''
-	    Switch to the `~/.vim` directory, and fetch submodules:
+```
+##	    Switch to the `~/.vim` directory, and fetch submodules:
 ```bash
 	        cd ~/.vim
 		    git submodule init
 		        git submodule update
-'''
+```
